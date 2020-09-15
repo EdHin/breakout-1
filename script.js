@@ -29,7 +29,13 @@ class Bal {
 
 
 
-var ballen = [/* maak hier je ballen */];
+var balA = new Bal(50,50,5,5);
+var balB = new Bal(50,50,5,5);
+var balC = new Bal(50,50,5,5);
+var balD = new Bal(50,50,5,5);
+var balE = new Bal(50,50,5,5);
+
+
 
 /**
  * setup
