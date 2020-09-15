@@ -59,8 +59,12 @@ function draw() {
   
   // ga alle ballen af
   for (var i = 0; i < ballen.length; i++) {
-    var bal = ballen[i];
-    bal.show()
+    var bal = balA[i];
+    var bal = balB[i];
+    var bal = balC[i];
+    var bal = balD[i];
+    var bal = balE[i];
+    bal.show(balA, balB, balC, balD, balE);
     bal.update();
   }
 }
